@@ -1,0 +1,53 @@
+*{
+  font-family: 'Pacifico', cursive;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FBF4E9;
+
+}
+.container{
+  height:325px;
+  width:500px;
+  margin: 50px auto;
+}
+.payment{
+  margin: auto;
+}
+.payment h2{
+  font-weight: 400;
+  text-align: center;
+}
+.form{
+  padding:25px;
+}
+.card{
+  margin-top: 20px;
+  position:relative;
+}
+.input{
+  position: absolute;
+  left:100px;
+}
+.card-group{
+  display: flex;
+  margin-top: 20px;
+}
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.pcontainer{
+  margin: auto;
+  width: 500px;
+  height:200px;
+  position:relative;
+}
